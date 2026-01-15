@@ -201,4 +201,4 @@ with gr.Blocks(title="Website Downloader Pro", css=custom_css, theme=theme) as a
     gr.Markdown("*Note: This tool respects `robots.txt` effectively but uses `wget` user-agent. Please use responsibly.*")
 
 if __name__ == "__main__":
-    app.launch(server_name="0.0.0.0", server_port=7860, auth=("newmeng2", "uestc"))
+    app.launch(server_name="0.0.0.0", server_port=7860, auth=("admin", "password"))
